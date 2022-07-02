@@ -71,8 +71,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo{
-  margin-right: 200px;
+  margin-right: auto;
 }
+
 #header .logo h1 {
   font-size: 28px;
   margin: 0;
@@ -87,6 +88,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logo img {
   max-height: 40px;
+}
+
+@media (max-width: 768px){
+  #header .logo{
+    margin-right: 120px;
+  }
 }
 
 /*--------------------------------------------------------------
